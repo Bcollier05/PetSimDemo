@@ -135,8 +135,8 @@ btn_sleep.place(x=345, y=400)
 btn_wake = tk.Button(window, text="Wake Up", command=wake_up)
 btn_wake.place(x=395, y=400)
 
-btn_play = tk.Button(window, text="Play", command=play_game)
-btn_play.place(x=285, y=450)
+#btn_play = tk.Button(window, text="Play", command=play_game)
+#btn_play.place(x=285, y=450)
 
 # Start the animation loop
 update()
